@@ -123,7 +123,7 @@ For more research, use the following resources:
 
 ## 5. Full Guide to Node.js
 
-Watch the YouTube Series and Code Along: (https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp)
+- Watch the YouTube Series and Code Along: [Node JS Tutorial for Beginners - YouTube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp)
 
 ## 6. (Optional) How does the internet work?
 
