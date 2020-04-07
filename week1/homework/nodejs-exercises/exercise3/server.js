@@ -1,16 +1,13 @@
 'use strict'
 
 let http = require("http");
-let url = require("url");
 
 let server = http.createServer(function(req, res) {
-  let path = url.parse(req.url)
-  if (path === "/script.js") {
+  if (req.url === "/script.js") {
     res.statusCode = 200;    
     res.setHeader("Content-Type", "text/javascript");
-    res.write(`<script>
-    document.getElementById('content').appendChild(document.createTextNode('Welcome to Server-land!'));
-    </script>`);
+    res.write(`document
+    .getElementById('content').appendChild(document.createTextNode('Welcome to Server-land!'));`);
     res.end();
   } else {
     res.statusCode = 200;
